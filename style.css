@@ -1,0 +1,79 @@
+body{
+	background-color : black;
+	font-family: Open Sans, Arial;
+    font-size: 16px;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+    text-align:justify;
+    padding: 1em;
+    max-width: 800px;
+}
+
+h1, h2, h3, p, a, ul{
+	color:white;
+}
+a{
+	color:#0051c9;
+}
+.motherfucker{
+	color:#b00000;
+}
+.shitty {
+    color:#00e
+}
+.violet{
+	color:#551a8b
+}
+.wrong{
+	color:#d24637;
+}
+
+.youdowhatyouwant {
+    font-family: monospace;
+    font-size: .9em
+}
+
+.rainbow{
+	color: rgb(235, 71, 180);
+	animation: pulse 5s infinite;
+}
+#test colors animation
+@keyframes rainbow {
+  0%   {background-color:purple; left:0px; top:0px;}
+  25%  {background-color:blue; left:200px; top:0px;}
+  50%  {background-color:green; left:200px; top:200px;}
+  75%  {background-color:yellow; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.image{
+	width:300px;
+	height: 199px;
+}
+
+div.BlockCatText div.CatLeft{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+div.BlockCatText div.TextRight p:first-child {
+    margin-top: 0;
+}
+
+a.kopimi, a.kopimi img.kopimi {
+    display: block;
+    margin-left: auto;
+    margin-right:auto
+}
+
+a.kopimi img.kopimi {
+    height:2em
+}
+
+.visitedlinkcolor{
+	color:#85144b;
+}
